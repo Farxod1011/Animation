@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:orientation="horizontal"
+    tools:context=".MainFragment">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/img_battarey"
+        android:layout_weight="0.0"
+        android:layout_marginTop="40dp"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/battarey_anim"
+        />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_weight="4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginHorizontal="60dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="Salom" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="2.4"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_alpha"
+            android:text="alpha"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_scale"
+            android:text="scale"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_translate"
+            android:text="trans\nlate"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_rotate"
+            android:text="rotate"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_bounce"
+            android:text="bounce"/>
+
+    </LinearLayout>
+</LinearLayout>
